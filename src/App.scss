@@ -1,6 +1,63 @@
-.messages {
-  &__container {
-    display: flex;
-    flex-direction: column;
-  }
+.messages__container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages__header {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.messages__list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: auto;
+  padding: 10px;
+  padding-bottom: 60px;
+  background-color: #fff; /* Example background color */
+}
+
+/* Individual message styling */
+.message {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Input container at the bottom */
+.messages__input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+}
+
+.messages__input-field {
+  flex-grow: 1;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.messages__send-button {
+  margin-left: 16px;
+  margin-right: 32px;
+  padding: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.messages__send-button:hover {
+  background-color: #0056b3;
 }

@@ -2,8 +2,8 @@ import "./App.scss"
 import MessageItem from "./components/messageItem"
 
 const messages = [
-  { user: "me", text: "Hi!" },
   { user: "assistant", text: "Hi! How can I help you?" },
+  { user: "me", text: "Hi!" },
 ]
 
 function App() {
