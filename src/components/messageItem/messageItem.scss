@@ -1,0 +1,12 @@
+.messageItem {
+  margin: 32px 16px;
+
+  &--self {
+    background-color: #fff;
+    text-align: right;
+  }
+
+  &--other {
+    text-align: left;
+  }
+}
