@@ -7,6 +7,14 @@
 .messages__header {
   padding: 16px;
   text-align: center;
+  display: flex;
+  justify-content: end;
+
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
 }
 
 .messages__list {
