@@ -1,5 +1,3 @@
-import "./chatInput.scss"
-
 const ChatInput = () => {
   return (
     <div className="w-full flex px-3 text-base">

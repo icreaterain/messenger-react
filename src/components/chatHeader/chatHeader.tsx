@@ -1,5 +1,3 @@
-import "./chatHeader.scss"
-
 const user = {
   name: "Gennadii Mareichev",
   avatar: "https://avatars.githubusercontent.com/u/30478350",

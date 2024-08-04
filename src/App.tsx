@@ -1,7 +1,6 @@
 import ChatHeader from "./components/chatHeader"
 import MessagesList from "./components/messagesList"
 import ChatInput from "./components/chatInput/chatInput"
-import "./App.scss"
 
 function App() {
   return (

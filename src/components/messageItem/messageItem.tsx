@@ -1,5 +1,3 @@
-import "./messageItem.scss"
-
 interface MessageItemProps {
   message: {
     user: string
@@ -12,8 +10,8 @@ const MessageItem = ({ message }: MessageItemProps) => {
 
   return (
     <div
-      className={`messageItem messageItem${
-        user === "me" ? "--self" : "--other"
+      className={`m-4 p-6 text-left ${
+        user === "me" ? "self-end max-w-[70%] rounded-3xl bg-[#f4f4f4]" : ""
       }`}
     >
       {text}

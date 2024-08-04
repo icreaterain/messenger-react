@@ -1,5 +1,4 @@
 import MessageItem from "../messageItem"
-import "./messagesList.scss"
 
 const messages = [
   { id: 2, user: "me", text: "Hi!" },
